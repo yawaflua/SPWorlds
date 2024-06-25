@@ -2,10 +2,11 @@
 using SPWorldsApi.Utils;
 using System.Text.Json;
 using System.Text.Json.Nodes;
+using SPWorldsApi.Users;
 
 namespace SPWorldsApi.Payments
 {
-    public interface IPaymentWrapper
+    public class PaymentWrapper : UserWrapper
     {
         HttpClient.HttpRequest client { get; set; }
 

@@ -7,7 +7,7 @@ using System.Text;
 
 namespace SPWorldsApi
 {
-    public sealed class SPWorlds : IPaymentWrapper, IUserWrapper
+    public sealed class SPWorlds : PaymentWrapper
     {
         internal string token { get; }
         public HttpRequest client { get; set; }
