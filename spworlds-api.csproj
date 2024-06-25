@@ -5,8 +5,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 	<ImplicitUsings>enable</ImplicitUsings>
-	<PackageId>spworldsapi</PackageId>
-	<Description>Библиотека, созданная для облегчения работы с API сайта spworlds.ru . Что-то добавить или обновить можно в github проекта.</Description>
+	<PackageId>spworlds-api</PackageId>
+	<Description>Библиотека, созданная для облегчения работы с API сайта spworlds.ru. Что-то добавить или обновить можно в github проекта.</Description>
 	<PackageLicenseExpression>MIT</PackageLicenseExpression>
 	<Version>1.0.0</Version>
 	<Authors>yawaflua</Authors>
