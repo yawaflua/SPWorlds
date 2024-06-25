@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace SPWorldsApi.Users
 {
-    public interface IUserWrapper
+    public class UserWrapper
     {
         HttpClient.HttpRequest client { get; set; }
         internal async Task<string> SendRequest(string endpoint, HttpMethod method = null, object body = null)
