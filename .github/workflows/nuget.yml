@@ -3,7 +3,10 @@ name: NuGet - Release
 on:
  release:
     types: [published]
-
+ push:
+    branches: [ "master" ]
+  
+    
 jobs:
   publish-nuget:
     runs-on: ubuntu-latest
