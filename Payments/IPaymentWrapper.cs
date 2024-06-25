@@ -5,7 +5,7 @@ using System.Text.Json.Nodes;
 
 namespace SPWorldsApi.Payments
 {
-    internal interface IPaymentWrapper
+    public interface IPaymentWrapper
     {
         HttpClient.HttpRequest client { get; set; }
 
